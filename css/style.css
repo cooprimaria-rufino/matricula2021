@@ -135,7 +135,7 @@
 //------------------------------
 ************/
     .titulo{
-        padding: 40px;
+        padding: 2em;
     }
     .escudo{
         min-width: 200px;
@@ -150,11 +150,11 @@
     
     .main header,
     .main {
-        padding: 40px;
+        padding: 1.5em;
     }
     .content{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
     .main ul {
         list-style: none;
