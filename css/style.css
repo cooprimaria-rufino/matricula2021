@@ -1,0 +1,220 @@
+    /************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+    
+    body {
+        background: #f2f2f2;
+        color: #666;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0;
+        padding: 0;
+        padding-top: 80px;
+    }
+    
+    h2 {
+        font-size: 2.3em;
+        font-weight: 300;
+        line-height: 1.3em;
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+    p {
+        margin: 0 0 1.5em 0;
+    }
+    
+    img {
+        padding: 20px;
+        height: auto;
+        max-width: 20%;
+        align-content: center;
+        display: block;
+    }
+    /************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+    
+    .header {
+        background: #0e6418;
+        color: white;
+        height: 80px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .header a {
+        color: white;
+    }
+/*
+ * Logo
+*/
+    
+    .logo-header {
+        float: left;
+        padding: 15px 0 0 20px;
+        text-decoration: none;
+    }
+    
+    .logo-header:hover {
+        color: #0c9631;
+    }
+    
+    .logo-header .site-name {
+        display: block;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    
+    .logo-header .site-desc {
+        color: #d3d3d3;
+        display: block;
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+    /*
+ * Navegación
+ */
+    
+    nav {
+        float: right;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        padding-right: 20px;
+    }
+    
+    nav>li {
+        float: left;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 0 10px;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        background: #0c9631;
+    }
+    
+    nav li ul {
+        font-size: 0.8em;
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        background-color: #106a1b;
+    }
+    
+    nav li:hover>ul {
+        display: block;
+        list-style-position: inside;
+    }
+    
+    nav li ul li {
+        position: relative;
+    }
+    /************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+    .titulo{
+        padding: 40px;
+    }
+    .main {
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        margin: 20px auto;
+        max-width: 800px;
+        width: 90%;
+    }
+    
+    .main header,
+    .main {
+        padding: 40px;
+    }
+    .content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main ul {
+        list-style: none;
+    }
+    
+    .main ul a {
+        text-decoration: none;
+        color: #666;
+    }
+    
+    .main ul a:hover {
+        text-decoration: underline;
+    }
+
+    .tablee{
+        text-align: center;
+    }
+
+    .tg  {
+        border-collapse:collapse;
+        border-spacing:0;}
+    .tg td{
+        border-color:black;
+        border-style:solid;
+        border-width:1px;
+        overflow:hidden;
+        padding:10px 5px;
+        word-break:normal;}
+    .tg th{
+        border-color:black;
+        border-style:solid;
+        border-width:1px;
+        font-size:1em;
+        font-weight:normal;
+        overflow:hidden;
+        padding:10px 5px;
+        word-break:normal;}
+        .tg .tg-baqh{
+            text-align:center;
+            vertical-align:center}
+        .tg .tg-amwm{
+            font-weight:bold;
+            text-align:center;
+            vertical-align:top}
+
+    /************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+    
+    .main_footer {
+        background: #0e6418;
+        color: white;
+        margin-top: 40px;
+        padding: 18px;
+        text-align: center;
+    }
+    
+    .main_footer p {
+        margin: 0;
+    }
+    .footerInformation {
+        font-size: 0.9em;
+        padding: 0;
+    }
